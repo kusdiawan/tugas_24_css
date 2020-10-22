@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+        <meta charset="utf-8" />
+        <title>Tugas 24 Belajar CSS Bootstrap - Niomic</title>
+
+        <!-- koneksi bootstrap offline -->
+        <link rel="stylesheet" href="/tugas_23_css/css/bootstrap.min.css" />
+ </head>
+ <body>
+    <form>
+        <div class="form-group">
+           <label>Nama Lengkap</label>
+           <input type="text" class="form-control" placeholder="Nama Lengkap"> 
+        </div>
+
+        <div class="form-group">
+           <label>Alamat Rumah</label>
+           <textarea class="form-control" name="alamat" rows="3" cols="80"></textarea>
+        </div>
+
+        <div class="form-group">
+           <label>Foto Profil</label>
+           <input class="form-control" name="foto" type="file"></input>
+        </div>
+
+        <div class="form-group">
+           <label>Alamat email</label>
+           <input type="email" class="form-control" placeholder="Alamat email"> 
+        </div>
+
+        <div class="form-group">
+           <label>Kata Sandi</label>
+           <input type="pasword" class="form-control" placeholder="Kata sandi"> 
+        </div>
+
+        <div>
+            <table>
+            <tr>
+            <td width="200px"><label>Jenis Kendaraan Anda :</label></td>
+            
+            <td width="100px">
+            <input class="form-check-input" type="radio" name="motor" value="motor" >
+              <label>
+                Motor
+              </label>
+            </td>
+
+            <td>
+            <input class="form-check-input" type="radio" name="mobil" value="mobil" checked>
+              <label>
+                Mobil
+              </label>
+            </td>
+
+            </tr>
+            </table>          
+        </div>
+
+        <div>
+             <button class="btn btn-primary" name="button">Register</button>
+        </div>
+    </form>
+ </body>
+</html>
